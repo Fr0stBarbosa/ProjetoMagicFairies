@@ -4,9 +4,9 @@
    ========================================================================== */
 
 /**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in
- *    IE on Windows Phone and in iOS.
+ *1. Corrija a altura da linha em todos os navegadores.
+ * 2. Impedir ajustes no tamanho da fonte após alterações de orientação em
+ * IE no Windows Phone e no iOS.
  */
 
 html {
@@ -19,7 +19,7 @@ html {
    ========================================================================== */
 
 /**
- * Add the correct display in IE 9-.
+* Adicione a exibição correta no IE 9-.
  */
 
 article,
@@ -32,21 +32,20 @@ section {
 }
 
 /**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
+ * Corrija o tamanho da fonte e a margem dos elementos `h1` dentro da `seção` e
+ * Contextos `article` no Chrome, Firefox e Safari.
  */
 
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
-
-/* Grouping content
+/* Agrupando conteúdo
    ========================================================================== */
 
 /**
- * Add the correct display in IE 9-.
- * 1. Add the correct display in IE.
+ * Adicione a exibição correta no IE 9-.
+ * 1. Adicione a exibição correta no IE.
  */
 
 figcaption,
@@ -75,8 +74,8 @@ hr {
 }
 
 /**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
+ * 1. Corrija a herança e o dimensionamento do tamanho da fonte em todos os navegadores.
+ * 2. Corrija o tamanho estranho da fonte `em` em todos os navegadores.
  */
 
 pre {
@@ -87,9 +86,8 @@ pre {
 /* Text-level semantics
    ========================================================================== */
 
-/**
- * 1. Remove the gray background on active links in IE 10.
- * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+/*** 1. Remova o fundo cinza dos links ativos no IE 10.
+ * 2. Remova as lacunas no sublinhado dos links no iOS 8+ e Safari 8+.
  */
 
 a {
@@ -98,8 +96,8 @@ a {
 }
 
 /**
- * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
- * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ * 1. Remova a borda inferior no Chrome 57- e Firefox 39-.
+ * 2. Adicione a decoração de texto correta no Chrome, Edge, IE, Opera e Safari.
  */
 
 abbr[title] {
@@ -109,7 +107,7 @@ abbr[title] {
 }
 
 /**
- * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ * Evite a aplicação duplicada de `bolder` pela próxima regra no Safari 6.
  */
 
 b,
