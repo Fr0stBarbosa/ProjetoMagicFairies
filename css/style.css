@@ -367,7 +367,7 @@ ul.social_icon li a:hover {
      font-size: 74px;
      line-height: 80px;
      font-weight: 500;
-     color: #fc6fe4;
+     color: #222222;
 }
 /*cor do subtititulo do banner*/
 .relative p {
@@ -376,7 +376,7 @@ ul.social_icon li a:hover {
 }
 /*cor do fundo do botão do banner*/
 .get_btn {
-     background-color: #fc6fe4;
+     background-color: #FFC0CB;
      color: #fff;
      text-align: center;
      max-width: 216px;
@@ -401,7 +401,7 @@ ul.social_icon li a:hover {
 #myCarousel .carousel-control-next {
      width: 55px;
      height: 55px;
-     background: #fc6fe4;
+     background: #FFC0CB;
      opacity: 1;
      font-size: 20px;
      color: #ffffff;
@@ -446,7 +446,7 @@ ul.social_icon li a:hover {
 /*cor do titulo "o que nos fazemos" e dos demais titulos*/
 .titlepage h2 {
      font-size: 45px;
-     color: #fc6fe4;
+     color: #222222;
      line-height: 45px;
      font-weight: bold;
      padding: 0;
@@ -461,7 +461,7 @@ ul.social_icon li a:hover {
 /*fundo do botao "read more" e demais botões*/
 .read_more {
      font-size: 17px;
-     background-color: #fc6fe4;
+     background-color: #FFC0CB;
      color: #fff;
      padding: 12px 0px;
      width: 100%;
@@ -509,7 +509,7 @@ ul.social_icon li a:hover {
 /*cor do circulo dos icones de unha*/
 .we_box i {
      border-radius: 50%;
-     border: #fc6fe4 solid 1px;
+     border: #FFC0CB solid 1px;
      width: 210px;
      height: 210px;
      display: flex;
@@ -524,7 +524,7 @@ ul.social_icon li a:hover {
      font-weight: bold;
      line-height: 25px;
      padding-bottom: 5px;
-     color: #fc6fe4;
+     color: #FFC0CB;
      padding-top: 30px;
 }
 
@@ -603,7 +603,7 @@ ul.social_icon li a:hover {
 }
 /*cor dos quadrados*/
 .pricing_box {
-     border: #fc6fe4 solid 1px;
+     border: #FFC0CB solid 1px;
      padding: 74px 101px 80px 101px;
 }
 
@@ -686,7 +686,7 @@ ul.social_icon li a:hover {
 /*cor do fundo do texto */
 .experts .experts_box {
      text-align: left;
-     background-color: #eb0d0d;
+     background-color: #FFC0CB;
      transition: ease-in all 0.5s;
 }
 
@@ -701,26 +701,26 @@ ul.social_icon li a:hover {
 .experts .experts_box .experts_img figure img {
      width: 100%;
      transition: all .5s;
-     border-top: #63d169 solid 20px;
+     border-top: #e2e2e2 solid 20px;
      border-bottom: #e2e2e2 solid 20px;
      border-left: #e2e2e2 solid 30px;
      border-right: #e2e2e2 solid 30px;
 }
 /*cor das bordas ao passar o mouse*/
 #exp:hover .experts_img figure img {
-     border-top: #effc3e solid 20px;
+     border-top: #FFC0CB solid 20px;
      border-bottom: #2e2e2e solid 20px;
      border-left: #2e2e2e solid 30px;
      border-right: #2e2e2e solid 30px;
 }
-
+/*como o texto ficara dentro da caixa*/
 .experts .experts_box .meet {
      padding: 33px 30px;
      text-align: center;
 }
-
+/*cor dos nomes das especialistas*/
 .experts .experts_box .meet h3 {
-     color: #343434;
+     color: #2e2e2e;
      font-size: 25px;
      line-height: 20px;
      padding-bottom: 12px;
@@ -729,12 +729,12 @@ ul.social_icon li a:hover {
      text-transform: uppercase;
      font-weight: bold;
 }
-
+/*tamanho das letras da caixa*/
 .experts .experts_box .meet p {
      font-size: 17px;
      line-height: 28px;
 }
-
+/*botao read more*/
 .exper {
      max-width: 171px;
      height: 47px;
@@ -768,7 +768,7 @@ ul.social_icon li a:hover {
 }
 /* cor das caixas para inserir informações entre outras coisas*/
 .main_form .contactus {
-     border: #ec0d0d solid 1px;
+     border: #FFC0CB solid 1px;
      padding: 0 15px;
      margin-bottom: 25px;
      width: 100%;
@@ -796,7 +796,7 @@ ul.social_icon li a:hover {
 .main_form .send_btn {
      font-size: 20px;
      transition: ease-in all 0.5s;
-     background-color: #2e2d2d;
+     background-color: #FFC0CB;
      text-transform: uppercase;
      color: #fff;
      padding: 10px 0px;
@@ -838,14 +838,14 @@ ul.social_icon li a:hover {
      font-size: 17px;
      line-height: 19px;
      text-align: left;
-     color: #f80505;
+     color: #FFC0CB;
      padding-bottom: 15px;
      display: table;
      text-transform: uppercase;
 }
 /*cor dos subtextos*/
 .variat {
-     color: #22f534;
+     color: #ffffff;
      text-align: left;
      padding-right: 40px;
 }
@@ -856,7 +856,7 @@ ul.conta {
 }
 /*cor da localização entre outros*/
 ul.conta li {
-     color: #2618f3;
+     color: #FFC0CB;
      text-align: left;
      padding-bottom: 20px;
      font-size: 17px;
@@ -875,7 +875,7 @@ ul.conta li i {
 }
 /*cor do email*/
 ul.conta li a {
-     color: #caf50a;
+     color: #ffffff;
 }
 
 ul.link_menu li {
@@ -888,7 +888,7 @@ ul.link_menu li.active a {
 }
 /*cor dos nomes das paginas*/
 ul.link_menu li a {
-     color: #11f8f8;
+     color: #FFC0CB;
      font-size: 17px;
      line-height: 28px;
      display: block;
@@ -933,7 +933,7 @@ ul.link_menu li a:hover {
 .right_btn {
      font-size: 17px;
      transition: ease-in all 0.5s;
-     background-color: #fa1717;
+     background-color: #FFC0CB;
      color: #fff;
      padding: 8px 16px;
      font-weight: 500;
@@ -950,14 +950,14 @@ ul.link_menu li a:hover {
 }
 /*cor do texto embaixo de subscribe*/
 .bottom_form p {
-     color: #41e220;
+     color: #ffffff;
      text-align: left;
 }
 /* cor do @2019*/
 .copyright {
      margin-top: 60px;
      padding-bottom: 20px;
-     background-color: #cffa10;
+     background-color: #FFC0CB;
      border-right: inherit;
      border-left: inherit;
 }
