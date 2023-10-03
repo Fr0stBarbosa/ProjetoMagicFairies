@@ -620,7 +620,7 @@ ul.social_icon li a:hover {
 .pricing_box_ti h3::before {
      position: absolute;
      content: "";
-     background-color: #f31515;
+     background-color: #b3a3a3;
      width: 84px;
      height: 4px;
      border-radius: 5px;
@@ -628,7 +628,7 @@ ul.social_icon li a:hover {
 }
 /*cor do sifrão*/
 .pricing_box_ti h3 span {
-     color: #7321cd;
+     color: #FFC0CB;
 }
 
 .pricing_box_ti h3 strong {
@@ -646,7 +646,7 @@ ul.social_icon li a:hover {
      font-weight: bold;
      line-height: 25px;
      padding-bottom: 20px;
-     color: #03e033;
+     color: #070707;
      padding-top: 30px;
      display: block;
 }

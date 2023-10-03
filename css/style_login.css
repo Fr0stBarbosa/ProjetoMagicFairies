@@ -1,0 +1,137 @@
+/*Encontre o que você precisa rapidamente … A página inicial é sua nova página de destino e mostra os arquivos e as pastas mais relevantes.*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html,body{
+    margin: 0 auto;
+    height: 100%;  
+}
+
+.central{
+    width: 100vw; /* vw ou vh abrange a tela toda*/
+    height: 100vh;
+    background-color: hotpink;
+    display: flex; /*organização lado a lado*/
+    justify-content: center; /*justicação no eixo x(-)*/
+    align-items: center; /*justificação no eixoy(|)*/
+
+}
+.lad_esq{
+    width: 50vw;
+    height: 100vh;
+    display: flex; /*organização lado a lado*/
+    justify-content: center; /*justicação no eixo x(-)*/
+    align-items: center; /*justificação no eixo(|)*/
+    flex-direction: column;/*justicar um em baixo do outro mesmo usando o flex*/
+}
+.lad_esq > h1{ /* a > chama a tag na class em questão*/
+    color: white;
+    font-size: 3vw;
+
+}
+
+.img_login{
+    width: 35vw;
+}
+
+.lad_dir{
+    width: 50vw;
+    height: 100vh;
+    display: flex; /*organização lado a lado*/
+    justify-content: center; /*justicação no eixo x(-)*/
+    align-items: center; /*justificação no eixo y(|)*/
+}
+.card{
+    width: 50%; /*abrange a div toda*/
+    display: flex; /*organização lado a lado*/
+    justify-content: center; /*justicação no eixo x(-)*/
+    align-items: center; /*justificação no eixo y(|)*/
+    flex-direction: column;
+    padding: 30px 35px ;/*margins internas*/
+    background: #ffc0cb;
+    border-radius: 20px;/*arredondamento*/
+    /*box-shadow: 0px 10px 40px black;sombreamento*/
+}
+
+.card >h1{
+    color: rgb(0, 0, 0); 
+    font-weight: 800; /*espessura da fonte*/ 
+    margin: 0;  
+}
+.text_card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;/*inverte a posição do align e justify*/
+    justify-content: center;
+    margin: 10px 0px;
+}
+.text_card > input{
+    width: 100%;
+    border: none;
+    background: rgba(238, 255, 0, 0.5);
+    border-radius: 10px;
+    padding: 15px;
+    color: rgb(24, 23, 23);/*cor interna box input*/
+    font-size: 12pt;
+    /*box-shadow: 0px 10px 30px black;sombreamento*/
+    outline: none; /*tira a borda do box*/
+    box-sizing: border-box; /*regra: div filho não pode ultrapassar a div pai*/
+}
+.text_card > label{
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+.btn_login{
+    width: 40%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase; /*colocar em caixa alta*/
+    font-weight: 800;
+    letter-spacing: 2px;/*espaçamento*/
+    color: rgb(0, 0, 0);
+    background: rgba(238, 255, 0, 0.5);
+    cursor: pointer; /*mudar o formato do cursor*/
+    box-shadow: 0px 10px 40px -12px black;/*sombreamento*/    
+}
+
+
+
+
+/*Responsividade*/
+
+@media only screen and (max-width: 950px){
+    .card{
+        width: 85%; /*reajuste do box_card*/
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .central{
+        flex-direction: column;
+    }
+    .lad_esq > h1{
+        display: none; /*ocultar h1*/
+    }
+    .lad_esq{
+        width: 100%;
+        height: auto;
+    }
+    .lad_dir{
+        width: 100%;
+        height: auto;
+    }
+    .img_login{
+        width: 40vh;
+    }
+    .card{
+        width: 60%;
+    }
+}
