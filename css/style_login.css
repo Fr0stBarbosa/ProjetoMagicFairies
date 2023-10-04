@@ -57,8 +57,9 @@ html,body{
 }
 
 .card >h1{
-    color: rgb(0, 0, 0); 
-    font-weight: 800; /*espessura da fonte*/ 
+    color: rgb(255, 247, 247); 
+    font-size: 30px;
+    font-weight: 700; /*espessura da fonte*/ 
     margin: 0;  
 }
 .text_card{
@@ -82,9 +83,10 @@ html,body{
     box-sizing: border-box; /*regra: div filho não pode ultrapassar a div pai*/
 }
 .text_card > label{
-    color: rgb(0, 0, 0);
+    color: white;
     margin-bottom: 10px;
     font-weight: 800;
+    font-size: 18px;
 }
 .btn_login{
     width: 40%;
@@ -95,8 +97,9 @@ html,body{
     outline: none;
     text-transform: uppercase; /*colocar em caixa alta*/
     font-weight: 800;
+    font-size: 18px;
     letter-spacing: 2px;/*espaçamento*/
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     background: rgba(238, 255, 0, 0.5);
     cursor: pointer; /*mudar o formato do cursor*/
     box-shadow: 0px 10px 40px -12px black;/*sombreamento*/    
